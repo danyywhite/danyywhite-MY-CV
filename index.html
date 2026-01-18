@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>MY CV page</title>
+</head>
+<body>
+    <header class="header">
+        <img src="avatar.png" alt="ava" class="avatar">
+        <h1 class="header__title">DANILA KALUGIN | CV</h1>
+        <h2 class="header__subtitle">Frontend Developer</h2>
+    </header>
+
+    <main>
+        <section class="skills">
+            <h2>MY Skills</h2>
+
+            <details>
+                <summary>Slills List:</summary>
+
+                <ol>
+                    <li>1.HTML</li>
+                    <li>2.CSS</li>
+                    <li>3.JavaScript</li>
+                    <li>4.React</li>
+                    <li>5.TypeScript</li>
+                </ol>
+            </details>
+        </section>
+            
+
+            <article class="article">
+                <h3>Short article about me</h3>
+
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore optio, fuga, et in tempora non illo fugiat quaerat voluptates quae sequi autem illum repellat mollitia architecto explicabo recusandae quisquam? Soluta ad aspernatur dicta ab natus quod veniam nostrum cupiditate doloremque! Expedita consequatur facilis ex temporibus excepturi! Ex voluptates optio distinctio.
+                </p>
+            </article>
+
+            <section class="gallery">
+                <img src="https://placehold.co/250x250" alt="placehold image">
+                <img src="https://placehold.co/250x250" alt="placehold image">
+                <img src="https://placehold.co/250x250" alt="placehold image">
+            </section>
+
+            <hr class="separator">
+            <section class="video">
+                <iframe src="https://www.youtube.com/embed/5yAbVkIMl_M" title="Most Popular Programming Languages 1955 - 2025" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+
+            <section class="hobbies">
+                <h4> MY hobbies</h4>
+                
+                <details>
+                    <summary>Hobbies</summary>
+
+                    <ul>
+                        <li>Skills</li>
+                        <li>Video editing</li>
+                        <li>Audio books</li>
+                    </ul>
+                </details>
+            </section>
+            <hr class="separator">
+
+            <section class="ed">
+                <table class="ed__table">
+                    <thead>
+                        <tr>
+                            <th>School | University</th>
+                            <th>Profession</th>
+                            <th>Year</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td>IT scool 1</td>
+                            <td>Angular Dev</td>
+                            <td>2019</td>
+                        </tr>
+                        <tr>
+                            <td>IT scool 2</td>
+                            <td>React Dev</td>
+                            <td>2020</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </section>
+
+            <section class="quote">
+                <blockquote>
+                    Действия-это единственный путь к успеху.
+                </blockquote>
+            </section>
+
+            <section class="interaction">
+                <form action="https://ya.ru" method="get" class="form" target="_blank">
+
+                    <fieldset>
+                        <legend>Required fields</legend>
+
+                        <label for="firstName-id">First Name</label>
+                        <input type="text" name="firstName" id="firstName-id" required class="form__control" placeholder="first name">
+                        
+                            <label for="lastName-id">Last Name</label>
+                            <input type="text" name="firstName" id="lastName-id" required class="form__control" placeholder="last name">
+                        
+                            <label for="email-id">Email</label>
+                            <input type="email" name="email" id="email-id" required class="form__control" placeholder="email">
+                    </fieldset>
+                    <br>
+                    <textarea 
+                    name="TRX" 
+                    class="form__control control--text" ></textarea>
+                
+                    <button type="submit" class="form__submit">Submit</button>
+                </form>
+            </section>
+    </main>
+
+    <hr class="separator">
+    
+    <footer>
+        <address>
+            <a href="mail:it@mail.ru" class="contacts__link">It@mail.ru</a>
+            <br><br>
+            <a href="tel+23452353" class="contacts__link">+3421244</a>
+        </address>
+    </footer>
+</body>
+</html>
