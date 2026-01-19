@@ -56,7 +56,7 @@ main {
 .ed__table {
     
     border-collapse: collapse;
-    width: 55%;
+    width: 100%;
 }
 
 .ed__table th, 
