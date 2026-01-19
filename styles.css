@@ -7,7 +7,36 @@ body {
     text-align: center;
 }
 
+.header__main {
+    margin: -8px;
+    height: 70px;
+    text-align: center;
+    background-color: rgba(64, 74, 107, 0.753);
+}
+
+.btn_main {
+    margin-top: 20px;
+    margin-right: 150px;
+    border-radius: 7px;
+}
+
+.btn_info {
+    margin-right: 100px;
+    border-radius: 7px;
+}
+
+.btn_art {
+    margin-left: 100px;
+    border-radius: 7px;
+}
+
+.btn_bio {
+    margin-left: 150px;
+    border-radius: 7px;
+}
+
 .avatar {
+    margin-top: 50px;
     width: 200px;
     height: 200 px;
 }
