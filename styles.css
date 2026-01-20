@@ -12,28 +12,32 @@ body {
     height: 70px;
     border: 2px solid rgb(70, 73, 122);
     text-align: center;
-    background-color: rgb(80, 98, 158);
+    background-color: #2569d0ea;
 }
 
 .btn_main {
     margin-top: 20px;
     margin-right: 150px;
     border-radius: 7px;
+    box-shadow: 3px 3px 8px 0 black;
 }
 
 .btn_info {
     margin-right: 100px;
     border-radius: 7px;
+    box-shadow: 3px 3px 8px 0 black;
 }
 
 .btn_art {
     margin-left: 100px;
     border-radius: 7px;
+    box-shadow: 3px 3px 8px 0 black;
 }
 
 .btn_bio {
     margin-left: 150px;
     border-radius: 7px;
+    box-shadow: 3px 3px 8px 0 black;
 }
 
 .avatar {
@@ -43,9 +47,15 @@ body {
 }
 .header__title {
     font-size: 29px;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 10px;
+    text-shadow: 2px 1px 1px black, 4px 5px 3px gray;
 }
 .header__subtitle {
-    color: rgb(161, 53, 26);
+    color: rgb(9, 22, 146);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 10px;
 }
 
 main {
@@ -53,8 +63,24 @@ main {
     text-align: center;
 }
 
+.skills {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
 .skills ol {
     list-style: none;
+
+}
+
+    p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+
+    text-shadow: 2px 7px 5px rgba(0, 0, 0,0.3),
+                            0 -4px 10px rgba(255,255, 255, 0.3);
 }
 
 .gallery__1 {
